@@ -1,4 +1,9 @@
 # logstash-input-jdbc-demo
+1. 安装插件
+logstash-plugin install logstash-input-jdbc
+2. 新建配置文件
+如jdbc.conf
+
 input {
     jdbc {
       jdbc_connection_string => "jdbc:mysql://127.0.0.1:3306/invoice"
